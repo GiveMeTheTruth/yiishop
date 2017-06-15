@@ -1,0 +1,44 @@
+ul li{
+	list-style: none;
+}
+
+
+.index_table tr td {
+	/*display: block;*/
+	width: 25%;
+	height: 50px;
+	border: 1px solid #efefef;
+	text-align: center;
+	line-height: 50px;
+}
+
+.index_table tr td a{
+	text-decoration: none;
+}
+
+.admin_table tr td {
+	/*display: block;*/
+	width: 2%;
+	height: 40px;
+	border: 1px solid #efefef;
+	text-align: center;
+	line-height: 40px;
+}
+
+.admin_table tr:hover {
+	background-color: #c9daf8;
+}
+
+.admin_tit {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.admin_handle {
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+.admin_handle a {
+	text-decoration: none;
+}
