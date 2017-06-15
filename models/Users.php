@@ -26,7 +26,7 @@ class Users extends ActiveRecord
 		];
 	}
 
-	public function usersadd($data) 
+	public function usersadd($data)
 	{
 		$this->scenario = "usersadd";
 		if ($this->load($data) && $this->validate()) {
