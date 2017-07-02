@@ -3,6 +3,7 @@
 return [
     'adminEmail' => 'admin@example.com',
     'pageSize' => [
-    	'manage' => 2,
+    	'manage' => 5,
+    	'product' => 2,
     ],
 ];

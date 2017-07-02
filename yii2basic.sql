@@ -49,6 +49,46 @@ create table if not exists `category` (
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
+--商品表
+drop table if exists `product`;
+create table if not exists `product` (
+	`productid` bigint unsigned not null auto_increment,
+	`cateid` bigint unsigned not null  default '0',
+	`title` varchar(200) not null default '',
+	`desc` text,
+	`num` bigint not null default '0',
+	`price` decimal(18,2) not null default '0',
+	`cover` varchar(200) not null default '',
+	`pics` text,
+	`issale` tinyint(2) not null default '0',
+	`saleprice` decimal(18,2) not null default '0',
+	`ishot` tinyint(2) not null default '0',
+	`createtime` int unsigned not null default '0',
+	primary key(`productid`),
+	key product_cateid(`cateid`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

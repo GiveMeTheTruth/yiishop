@@ -34,29 +34,3 @@ use yii\helpers\Url;
 <?php $form = ActiveForm::end(); ?>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
